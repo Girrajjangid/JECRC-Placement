@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/login_background</item>
+        <item name="colorPrimaryDark">@color/login_background</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorForeground">@android:color/black</item>
+        <item name="android:navigationBarColor">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/login_background</item>
+        <item name="colorPrimaryDark">@color/login_background</item>
+        <item name="colorAccent">@color/login_background</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColorPrimaryInverse">@android:color/darker_gray</item>
+        <item name="android:textColorSecondary">@color/login_background</item>
+        <item name="android:colorBackground">@android:color/background_light</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+    </style>
+</resources>

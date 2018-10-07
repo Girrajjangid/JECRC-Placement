@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name"         >JECRC Placement</string>
+    <string name="log_out"          >Log Out</string>
+    <string name="version"          >Version</string>
+    <string name="MainActivityLabel"> Messages</string>
+    <string name="interestedButton" >Interested</string>
+    <string name="forget_password"  >Forget Password?</string>
+    <string name="sign_up"          >Sign Up</string>
+    <string name="sign_in"          >Sign In</string>
+    <string name="not_register"     >Not Register?</string>
+    <string name="hint_password"    >Password</string>
+    <string name="v_1_0"            >V 1.0.1</string>
+    <string name="sign_up_now"      >Sign up now</string>
+    <string name="no_message"       >No New Message</string>
+    <string name="hint_name"        >Name</string>
+    <string name="hint_email"       >Email</string>
+    <string name="hint_contact"     >Contact</string>
+    <string name="confirm"          >Confirm</string>
+    <string name="new_password"     >New Password</string>
+    <string name="update"           >Update</string>
+    <string name="otp"              >OTP</string>
+    <string name="resend_otp"       >Resend OTP</string>
+    <string name="profile"          >Profile</string>
+    <string name="profile1"         >Profile</string>
+    <string name="edit_profile"     >Edit Profile</string>
+    <string name="father_s_name"    >Father\'s Name</string>
+    <string name="mothers_s_name"   >Mother\'s Name</string>
+    <string name="dob_dd_mm_yyyy"   >DOB (DD/MM/YYYY)</string>
+    <string name="city"             >City</string>
+    <string name="state"            >State</string>
+    <string name="contact_info"     >Contact Info</string>
+    <string name="alternate_contact">Alternate Contact *</string>
+    <string name="_10th_school_name">10th (School Name)</string>
+    <string name="_10th_percentage" >10th (Percentage)</string>
+    <string name="_12th_school_name">12th (School Name)</string>
+    <string name="_12th_percentage" >12th (Percentage)</string>
+    <string name="_1st_semester_gpa">1st Semester(GPA)</string>
+    <string name="_2nd_semester_gpa">2nd Semester(GPA)</string>
+    <string name="_3rd_semester_gpa">3rd Semester(GPA)</string>
+    <string name="_4th_semester_gpa">4th Semester(GPA)</string>
+    <string name="_5th_semester_gpa">5th Semester(GPA)</string>
+    <string name="_6th_semester_gpa">6th Semester(GPA)</string>
+    <string name="_7th_semester_gpa">7th Semester(GPA)</string>
+    <string name="_8th_semester_gpa">8th Semester(GPA)</string>
+    <string name="overall_cgpa"     >CGPA</string>
+    <string name="diploma_if_any"   >Diploma(If any)</string>
+    <string name="diploma_1st_year" >Diploma 1st year (%)</string>
+    <string name="diploma_2nd_year" >Diploma 2nd year (%)</string>
+    <string name="diploma_3rd_year" >Diploma 3rd year (%)</string>
+    <string name="project_if_any"   >Project(If any)</string>
+    <string name="_1st_project_name">1st Project Name</string>
+    <string name="_2nd_project_name">2nd Project Name</string>
+    <string name="mode_of_admission">Mode of Admission</string>
+    <string name="academic_qualifications"  >Academic Qualifications</string>
+    <string name="successfully_update"      >Successfully Update</string>
+    <string name="home_hostel_address"      >Permanent Address</string>
+    <string name="hint_registration_number" >Registration Number</string>
+    <string name="enter_new_password"       >Enter new Password</string>
+    <string name="hint_create_password"     >Create Password</string>
+    <string name="enter_your_registered_mobile_number_and_registration_number">Enter your registered Mobile number and Registration number</string>
+    <string name="otp_is_sent_on_your_registered_nmobile_number">OTP is sent on your registered\nMobile number</string>
+    <string name="SingleActivityLabel"/>
+    <string name="gender">gender</string>
+    <string name="father_s_contact">Father\'s Contact</string>
+    <string name="_10th_passout_year">10th (Passout year)</string>
+    <string name="_12th_passout_year">12th (Passout year)</string>
+    <string name="over_all_back_0_1_2_3">Over all Back(0,1,2,3,..)</string>
+    <string name="year_back">Year Gap(0,1,2,3,..)</string>
+    <string name="imaga">imaga</string>
+
+    <string-array name="mode_of_addmision">
+        <item>JEE Main</item>
+        <item>12th</item>
+        <item>Mode of Admission</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Gender</item>
+    </string-array>
+
+    <string-array name="Branch">
+        <item>Computer Science</item>
+        <item>Mechanical</item>
+        <item>Civil</item>
+        <item>Electronics</item>
+        <item>Electrical</item>
+        <item>Branch</item>
+    </string-array>
+
+</resources>
+

@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/login_background</item>
+        <item name="colorPrimaryDark">@color/login_background</item>
+        <item name="colorAccent">@android:color/darker_gray</item>
+        <item name="android:textColorPrimaryInverse">@android:color/darker_gray</item>
+        <item name="android:textColorSecondary">@android:color/darker_gray</item>
+        <item name="android:colorBackground">@android:color/background_light</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/login_background</item>
+        <item name="colorPrimaryDark">@color/login_background</item>
+        <item name="colorAccent">@color/profile_center1</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColorPrimaryInverse">@android:color/darker_gray</item>
+        <item name="android:textColorSecondary">@color/login_background</item>
+        <item name="android:colorBackground">@android:color/background_light</item>
+    </style>
+
+    <style name="AppTheme_profile" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/profile_center1</item>
+        <item name="colorAccent">@color/profile_center1</item>
+        <item name="android:textColorPrimaryInverse">@android:color/darker_gray</item>
+        <item name="android:textColorSecondary">@android:color/darker_gray</item>
+        <item name="android:colorBackground">@android:color/background_light</item>
+    </style>
+    />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorPrimaryDark">@color/profile_center</item>
+    </style>
+
+    <style name="MaterialDialogSheet" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowAnimationStyle">@style/MaterialDialogSheetAnimation</item>
+    </style>
+
+
+    <style name="MaterialDialogSheetAnimation">
+        <item name="android:windowEnterAnimation">@anim/popup_show</item>
+        <item name="android:windowExitAnimation">@anim/popup_hide</item>
+    </style>
+
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Faculty</string>
+    <string name="log_out">Log Out</string>
+    <string name="version">Version</string>
+    <string name="MainActivityLabel">NewsFeed</string>
+    <string name="SingleActivityLabel"></string>
+    <string name="ShareActivityLabel">Share</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="mode_of_addmision">
+        <item></item>
+        <item>JEE Main</item>
+        <item>12th</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+</resources>

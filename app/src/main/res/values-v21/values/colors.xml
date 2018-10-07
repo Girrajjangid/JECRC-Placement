@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary"          >#3F51B5</color>
+    <color name="colorPrimaryDark"      >#303F9F</color>
+    <color name="colorAccent"           >#FF4081</color>
+    <color name="login_background"      >#b10000</color>
+    <color name="White"                 >#FFFFFF</color>
+    <color name="hint_color"            >#c68585</color>
+    <color name="profile_end"           >#be87fc</color>
+    <color name="profile_center"        >#8667dc</color>
+    <color name="profile_start"         >#70e5fc</color>
+    <color name="profile_end_alpha"     >#cfb9ea</color>
+    <color name="profile_center_alpha"  >#b0a2d9</color>
+    <color name="profile_start_alpha"   >#addae2</color>
+    <color name="black"                 >#000000</color>
+    <color name="black2"                 >#1d1c1c</color>
+    <color name="forgetpassword_hint_color"         >#d29e70</color>
+    <color name="forget_password_background"        >#f45506</color>
+    <color name="profile_update_button_background"  >#42abd1</color>
+    <color name="profile_end1"           >#ffc379</color>
+    <color name="profile_center1"        >#cc774c</color>
+    <color name="profile_start1"         >#f56b6d</color>
+    <color name="profile_end1_alpha"     >#ffc379</color>
+    <color name="share_hint_color"     >#868686</color>
+    <color name="share_background"     >#e1e1e1</color>
+    <color name="profile_center1_alpha"  >#cc904c</color>
+    <color name="profile_start1_alpha"   >#e67778</color>
+
+</resources>
