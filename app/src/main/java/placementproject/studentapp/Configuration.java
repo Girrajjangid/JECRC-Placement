@@ -12,7 +12,7 @@ class Configuration {
     static final String URL_ADD              ="http://cricketmozo.000webhostapp.com/PLACEMENT/Register.php"  ;
     static final String URL_TOKEN_ADD        ="http://cricketmozo.000webhostapp.com/PLACEMENT/register.php"  ;
 
-
+	static final String KEY_USER_TOKEN123    = "a";
     static final String KEY_USER_TOKEN       = "token";
     static final String KEY_USER_NAME        = "name";
     static final String KEY_USER_FATHER      = "father";
