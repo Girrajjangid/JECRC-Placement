@@ -67,6 +67,9 @@
     <string name="over_all_back_0_1_2_3">Over all Back(0,1,2,3,..)</string>
     <string name="year_back">Year Gap(0,1,2,3,..)</string>
     <string name="imaga">imaga</string>
+    <string name="rate_us">Rate us</string>
+    <string name="how_we_can_improve_our_application_your_feedback_is_important_for_us">How we can improve our application? Your feedback is important for us.</string>
+    <string name="submit">Submit</string>
 
     <string-array name="mode_of_addmision">
         <item>JEE Main</item>

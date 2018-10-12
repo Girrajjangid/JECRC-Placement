@@ -46,14 +46,12 @@ public class Fragment1 extends Fragment {
     View rootview;
     ListView listView;
     ListViewAdapter adapter;
-    Context context;
     TextView emptyView ;
-    public Fragment1(Context context) {
-        this.context = context;
-    }
+    Context context;
 
     public View onCreateView(final LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        context = getContext();
         rootview = inflater.inflate(R.layout.fragment_fragment1, container, false);
         listView = (ListView) rootview.findViewById(R.id.listview_fragment);
         emptyView =(TextView) rootview.findViewById(R.id.emptyElement);
