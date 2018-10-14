@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/White"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rate Us"
+        android:textAlignment="center"
+        android:textColor="@color/White"
+        android:textSize="22sp"
+        android:padding="10dp"
+        android:background="@color/password_g4"/>
+    <RatingBar
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:id="@+id/ratingbars"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        android:id="@+id/feedbacktext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="How we can improve our application?\nYour Feedback is important \nfor us."
+        android:textSize="15sp"/>
+    <Button
+        android:onClick="feedBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/White"
+        android:text="@string/submit"
+        android:background="@color/password_g4"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

@@ -42,7 +42,6 @@ public class Fragment1 extends Fragment {
     ArrayList<Integer> deleted_id = new ArrayList<>();
     ArrayList<String> click = new ArrayList<>();
 
-    //SwipeRefreshLayout refreshLayout;
     View rootview;
     ListView listView;
     ListViewAdapter adapter;
@@ -54,13 +53,12 @@ public class Fragment1 extends Fragment {
         context = getContext();
         rootview = inflater.inflate(R.layout.fragment_fragment1, container, false);
         listView = (ListView) rootview.findViewById(R.id.listview_fragment);
-        emptyView =(TextView) rootview.findViewById(R.id.emptyElement);
-        adapter = new ListViewAdapter(context, title, body, date, time, server_id,key_row_id,column,click);
+        emptyView = (TextView) rootview.findViewById(R.id.emptyElement);
+        adapter = new ListViewAdapter(context, title, body, date, time, server_id, key_row_id, column, click);
         listView.setAdapter(adapter);
         saveInDatabase();
         new AddUser().execute();
 
-        //  refreshLayout = (SwipeRefreshLayout) rootview.findViewById(R.id.Swipe_refresh);
         try {
             listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
@@ -74,37 +72,17 @@ public class Fragment1 extends Fragment {
                     intent.putExtra("position", position);
                     startActivity(intent);
 
-                    long rowid=key_row_id.get(position);
-                    ((MainActivity)getActivity()).db.open();
-                    ((MainActivity)getActivity()).db.updateData(rowid);
+                    long rowid = key_row_id.get(position);
+                    ((MainActivity) getActivity()).db.open();
+                    ((MainActivity) getActivity()).db.updateData(rowid);
 
-                    click.set(position,"true");
+                    click.set(position, "true");
 
                     adapter.notifyDataSetChanged();
 
                 }
             });
-        /*    refreshLayout.setColorSchemeColors(getResources().getColor(R.color.login_background),
-                    getResources().getColor(R.color.profile_start1),
-                    getResources().getColor(R.color.profile_center1));
-            refreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
-                @Override
-                public void onRefresh() {
-                    new Handler().postDelayed(new Runnable() {
-                        @Override
-                        public void run() {
-                            if (!((MainActivity) getActivity()).isConnected()) {
-                                Toast.makeText(getActivity(), "No Internet", Toast.LENGTH_SHORT).show();
-                                refreshLayout.setRefreshing(false);
-                            } else {
-                                saveInDatabase();
-                                new AddUser().execute();
-                            }
-                        }
-                    }, 100);
-                }
-            });
-        */    listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
                 @Override
                 public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
                     FirebaseMessaging.getInstance().subscribeToTopic("test");
@@ -202,48 +180,6 @@ public class Fragment1 extends Fragment {
                     }
                 })
                 .show();
-        /*final AlertDialog.Builder aBuilder = new AlertDialog.Builder(context);
-        aBuilder.setMessage(mess);
-        aBuilder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
-                key_row_id.remove(position);
-                server_id.remove(position);
-                title.remove(position);
-                body.remove(position);
-                date.remove(position);
-                time.remove(position);
-                column.remove(position);
-                ((MainActivity) getActivity()).db.open();
-                ((MainActivity) getActivity()).db.deleteData(serverid);
-                ((MainActivity) getActivity()).db.insertDataDeleted(serverid);
-                ((MainActivity) getActivity()).db.close();
-                adapter.notifyDataSetChanged();
-
-                if(title.isEmpty()) {
-                    listView.setEmptyView(emptyView);
-                }
-                *//*try {
-                    if (title.isEmpty()) {
-                        emptyView.setVisibility(View.VISIBLE);
-                        listView.addView(emptyView);
-                        listView.setEmptyView(emptyView);
-                    } else {
-                        emptyView.setVisibility(View.GONE);
-                        listView.removeView(emptyView);
-                    }
-                } catch (Exception ignored) {
-                }*//*
-
-
-            }
-        });
-        aBuilder.setNegativeButton("No", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                dialog.cancel();
-            }
-        }).create().show();*/
     }
 
     class AddUser extends AsyncTask<Void, Void, String> {
@@ -280,7 +216,6 @@ public class Fragment1 extends Fragment {
             } else {
                 new AddUser().execute();
             }
-            //refreshLayout.setRefreshing(false);
             adapter.notifyDataSetChanged();
         }
     }

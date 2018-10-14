@@ -11,9 +11,11 @@ class Configuration {
     static final String URL_PROFILE_UPDATE   = "http://cricketmozo.000webhostapp.com/PLACEMENT/ProfileUpdate.php"  ;
     static final String URL_ADD              ="http://cricketmozo.000webhostapp.com/PLACEMENT/Register.php"  ;
     static final String URL_TOKEN_ADD        ="http://cricketmozo.000webhostapp.com/PLACEMENT/register.php"  ;
+    static final String URL_FEEDBACK         ="http://cricketmozo.000webhostapp.com/PLACEMENT/Feedback.php"  ;
 
 	static final String KEY_USER_TOKEN123    = "a";
     static final String KEY_USER_TOKEN       = "token";
+    static final String KEY_FEEDBACK         = "feedback";
     static final String KEY_USER_NAME        = "name";
     static final String KEY_USER_FATHER      = "father";
     static final String KEY_USER_MOTHER      = "mother";
