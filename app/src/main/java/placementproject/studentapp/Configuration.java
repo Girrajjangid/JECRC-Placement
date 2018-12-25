@@ -3,15 +3,15 @@ package placementproject.studentapp;
 
 class Configuration {
 
-    static final String URL_LOGIN            ="http://cricketmozo.000webhostapp.com/PLACEMENT/Login.php";
-    static final String URL_DOWNLOAD_INFO    ="http://cricketmozo.000webhostapp.com/PLACEMENT/DownloadData.php";
-    static final String URL_INTERESTED_STUDENTS="http://cricketmozo.000webhostapp.com/PLACEMENT/InterestedStudents.php";
-    static final String URL_FORGET_PASSWORD  ="http://cricketmozo.000webhostapp.com/PLACEMENT/ForgetPassword.php" ;
-    static final String URL_PASSWORD_UPDATE  ="http://cricketmozo.000webhostapp.com/PLACEMENT/PasswordUpdate.php" ;
-    static final String URL_PROFILE_UPDATE   = "http://cricketmozo.000webhostapp.com/PLACEMENT/ProfileUpdate.php"  ;
-    static final String URL_ADD              ="http://cricketmozo.000webhostapp.com/PLACEMENT/Register.php"  ;
-    static final String URL_TOKEN_ADD        ="http://cricketmozo.000webhostapp.com/PLACEMENT/register.php"  ;
-    static final String URL_FEEDBACK         ="http://cricketmozo.000webhostapp.com/PLACEMENT/Feedback.php"  ;
+    static final String URL_LOGIN            ="http://megaversion.online/PLACEMENT/Login.php";
+    static final String URL_DOWNLOAD_INFO    ="http://megaversion.online/PLACEMENT/DownloadData.php";
+    static final String URL_INTERESTED_STUDENTS="http://megaversion.online/PLACEMENT/InterestedStudents.php";
+    static final String URL_FORGET_PASSWORD  ="http://megaversion.online/PLACEMENT/ForgetPassword.php" ;
+    static final String URL_PASSWORD_UPDATE  ="http://megaversion.online/PLACEMENT/PasswordUpdate.php" ;
+    static final String URL_PROFILE_UPDATE   ="http://megaversion.online/PLACEMENT/ProfileUpdate.php"  ;
+    static final String URL_ADD              ="http://megaversion.online/PLACEMENT/Register.php"  ;
+    static final String URL_TOKEN_ADD        ="http://megaversion.online/PLACEMENT/register.php"  ;
+    static final String URL_FEEDBACK         ="http://megaversion.online/PLACEMENT/Feedback.php"  ;
 
 	static final String KEY_USER_TOKEN123    = "a";
     static final String KEY_USER_TOKEN       = "token";

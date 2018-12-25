@@ -33,6 +33,7 @@
     <color name="password_g2"            >#e76637</color>
     <color name="password_g3"            >#f15254</color>
     <color name="password_g4"            >#f43638</color>
+    <color name="red_btn_bg_color"         >#f43638</color>
     <color name="transparent"            >#00000000</color>
 
 </resources>

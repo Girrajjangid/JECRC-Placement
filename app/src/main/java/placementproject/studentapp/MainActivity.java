@@ -127,7 +127,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onRatingChanged(RatingBar ratingBar, float rating, boolean fromUser) {
                 float i = ratingBar.getRating();
-                Toast.makeText(MainActivity.this, String.valueOf(i), Toast.LENGTH_SHORT).show();
                 if (i <= 4) {
                     reviewED.setText("");
                     reviewED.setVisibility(View.VISIBLE);
@@ -175,7 +174,6 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onClick(SweetAlertDialog sweetAlertDialog) {
                         sweetAlertDialog.dismissWithAnimation();
-                        finish();
                     }
                 })
                         .changeAlertType(SweetAlertDialog.SUCCESS_TYPE);

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:paddingRight="18dp"
@@ -13,7 +14,7 @@
         android:layout_width="90dp"
         android:layout_height="100dp"
         android:id="@+id/logo"
-        android:src="@drawable/ic_new"
+        app:srcCompat="@drawable/ic_new"
         android:layout_centerHorizontal="true"
         android:layout_centerInParent="true"
         android:contentDescription="@drawable/ic_new" />
@@ -51,7 +52,7 @@
             android:drawablePadding="10dp"
             android:drawableLeft="@drawable/ic_person_black_24dp"
             android:padding="10dp"
-            tools:ignore="RtlHardcoded" />
+            android:drawableStart="@drawable/ic_person_black_24dp" />
         </android.support.design.widget.TextInputLayout>
 
         <View
@@ -114,7 +115,7 @@
             android:textSize="20sp"
             android:textAllCaps="false"
             android:textColor="@color/login_background"
-            />
+            android:focusable="true" />
         <TextView
             android:layout_marginTop="10dp"
             android:clickable="false"
@@ -139,7 +140,7 @@
             android:onClick="signUp"
             android:textAllCaps="false"
             android:textColor="@color/login_background"
-            />
+            android:focusable="true" />
 
         <TextView
             android:layout_gravity="center_horizontal"
@@ -153,7 +154,7 @@
             android:layout_marginTop="10dp"
             android:id="@+id/forget_passsword"
             android:textStyle="bold"
-            />
+            android:focusable="true" />
     </LinearLayout>
     <TextView
         android:layout_width="match_parent"
