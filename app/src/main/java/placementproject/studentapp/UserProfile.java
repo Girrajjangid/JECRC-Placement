@@ -365,12 +365,15 @@ public class UserProfile extends AppCompatActivity {
                         })
                         .show();
             }
-        } catch (NumberFormatException e) {
+        }catch(NullPointerException e){
+            e.printStackTrace();
+        }
+        catch (NumberFormatException e) {
             e.printStackTrace();
         }
     }
 
-    class AddUser extends AsyncTask<Void, Void, String> {
+     class AddUser extends AsyncTask<Void, Void, String> {
 
         protected void onPostExecute(String s) {
             super.onPostExecute(s);

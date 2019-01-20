@@ -15,7 +15,7 @@
         
         android:theme="@style/AppTheme.NoActionBar"
         tools:replace = "android:icon"
-        >
+        tools:ignore="GoogleAppIndexingWarning">
         <activity
             android:name=".Login"
             android:screenOrientation="portrait">
