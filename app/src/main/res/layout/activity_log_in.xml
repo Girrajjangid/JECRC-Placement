@@ -38,7 +38,7 @@
 
         <EditText
             android:layout_marginTop="10dp"
-            android:textSize="@dimen/text_size"
+            android:textSize="15sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/hint_registration_number"
@@ -52,7 +52,7 @@
             android:drawablePadding="10dp"
             android:drawableLeft="@drawable/ic_person_black_24dp"
             android:padding="10dp"
-            android:drawableStart="@drawable/ic_person_black_24dp" />
+            />
         </android.support.design.widget.TextInputLayout>
 
         <View

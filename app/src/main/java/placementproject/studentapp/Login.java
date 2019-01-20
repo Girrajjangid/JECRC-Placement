@@ -24,12 +24,9 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import org.json.JSONArray;
 import org.json.JSONObject;
-
 import java.util.HashMap;
-
 import cn.pedant.SweetAlert.SweetAlertDialog;
 
 public class Login extends AppCompatActivity {
@@ -182,14 +179,21 @@ public class Login extends AppCompatActivity {
     }
 
     private void alertDialog(String mess) {
-       /*  AlertDialog.Builder aBuilder = new AlertDialog.Builder(this);
-        aBuilder.setMessage(mess);
-        aBuilder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
-                dialogInterface.cancel();
+       /*  alertdialog.builder abuilder = new alertdialog.builder(this);
+        abuilder.setmessage(mess);
+        abuilder.setpositivebutton("ok", new dialoginterface.onclicklistener() {
+            @override
+            public void onclick(dialoginterface dialoginterface, int i) {
+                dialoginterface.cancel();
             }
         }).create().show();
+       */
+
+       /*SweetAlertDialog pDialog = new SweetAlertDialog(this, SweetAlertDialog.PROGRESS_TYPE);
+        pDialog.getProgressHelper().setBarColor(Color.parseColor("#A5DC86"));
+        pDialog.setTitleText("Loading");
+        pDialog.setCancelable(false);
+        pDialog.show();
        */
         SweetAlertDialog dialog = new SweetAlertDialog(Login.this, SweetAlertDialog.ERROR_TYPE);
         dialog.setTitleText("Oops...");
