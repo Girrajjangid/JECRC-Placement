@@ -17,7 +17,7 @@
         tools:replace = "android:icon"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
-            android:name=".Login"
+            android:name=".MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,7 +30,7 @@
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme_profile" />
         <activity android:name=".SignUp" android:screenOrientation="portrait" />
-        <activity android:name=".MainActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Login" android:screenOrientation="portrait"/>
         <activity android:name=".ForgetPasswordVerfication" android:screenOrientation="portrait" android:theme="@style/PasswordTheme"/>
         <activity android:name=".ForgetPasswordUpdatation" android:screenOrientation="portrait" android:theme="@style/PasswordTheme"/>
         <activity android:name=".ForgetPassword" android:screenOrientation="portrait" android:theme="@style/PasswordTheme"/>
