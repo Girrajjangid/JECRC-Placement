@@ -4,9 +4,7 @@
 3. Also able to give feedback about the given company messages.
 
 
-![alt text](https://github.com/Girrajjangid/JECRC-Placement/blob/master/images/Untitled0.png)
-
-![alt text](https://github.com/Girrajjangid/JECRC-Placement/blob/master/images/Untitled1.png)
+![alt text](https://github.com/Girrajjangid/JECRC-Placement/blob/master/images/Untitled0.png)     ![alt text](https://github.com/Girrajjangid/JECRC-Placement/blob/master/images/Untitled1.png)
 
 ![alt text](https://github.com/Girrajjangid/JECRC-Placement/blob/master/images/Untitled2.png)
 
